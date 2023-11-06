@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p class="paragraf">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ab
+      velit esse illo impedit, mollitia saepe exercitationem ad quaerat sint
+      quidem nemo? Facere, obcaecati quae deleniti explicabo fugiat voluptates
+      recusandae consequuntur laudantium beatae totam? Est facilis eum
+      consequuntur, delectus necessitatibus nisi. Ullam obcaecati enim aperiam
+      ipsam molestias totam reiciendis velit labore culpa accusantium!
+      Necessitatibus, explicabo. Quas dolorem doloribus consectetur repellat
+      eaque hic modi, voluptates aperiam rerum illum dolore quia alias aliquid
+      ad at aut commodi dicta, illo optio! Itaque incidunt quaerat possimus
+      impedit optio quam enim ratione accusantium eius fugit, voluptate tempora
+      doloribus omnis, sunt dignissimos iusto nobis officia culpa.
+    </p>
+
+    <p class="paragraf">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta earum
+      aperiam magni est debitis. Expedita laboriosam assumenda maiores quia modi
+      est! Sit ab consectetur sint alias expedita! Tempora modi maxime quibusdam
+      quo velit cum nostrum fugiat beatae illum, nulla repellat, alias magni
+      molestiae distinctio. Optio officiis soluta nisi iusto cum, fugiat facilis
+      quod, labore molestias provident laboriosam dolor. Nam excepturi labore
+      libero eos ut sunt rem numquam laborum. Ex eligendi ut tempora, quas quae
+      veniam quo esse alias. Eos hic quis cumque sunt libero. Quo reiciendis
+      suscipit, et fugit odio molestiae animi voluptates officiis maiores
+      commodi harum explicabo alias nostrum?
+    </p>
+
+    <p class="paragraf">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae a magnam
+      enim nesciunt consequatur fugiat beatae repudiandae! Harum, quidem dolores
+      debitis veritatis animi eligendi assumenda voluptate esse error. Rem
+      dicta, animi debitis eveniet magni corporis nostrum necessitatibus odio
+      perspiciatis quasi iste quaerat dolorem a, molestias quia, labore
+      possimus! Deleniti exercitationem totam quo error? Illo amet adipisci
+      explicabo, libero ea quos maxime? Vero repellendus hic harum ipsum a
+      deserunt vitae eum illum, quod itaque minima esse dolorem officia corporis
+      magni molestiae ut fugiat tempora veniam necessitatibus. Delectus enim,
+      quam voluptatibus ratione sed quod, accusantium placeat eveniet modi,
+      ipsam tempora porro ea!
+    </p>
+
+    <script>
+        var paragraf = document.getElementsByClassName("paragraf");
+        console.log(paragraf);
+        var paragraf = document.getElementsByClassName("paragraf");
+        setInterval(function () {
+            paragraf[0].style.color = "red";
+            paragraf[1].style.color = "green";
+            paragraf[2].style.color = "blue";
+
+            setTimeout(function(){
+                paragraf[0].style.color = "black";
+                paragraf[1].style.color = "black";
+                paragraf[2].style.color = "black";
+            },500)
+        },1000)
+    </script>
+  </body>
+</html>
